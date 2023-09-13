@@ -1,0 +1,77 @@
+.box{
+  text-align: center;
+  margin-top: 100px;
+}
+
+body{
+  background-color: darkgrey;
+}
+table{
+    margin: auto;
+}
+
+input{
+  font-size: 35px;
+  width: auto;
+  border-radius: 13px;
+  margin: 15px;
+  height: 60px;
+  border: 2px solid rgb(98, 47, 165);
+  text-align: right;
+}
+
+button{
+  font-size: 30px;
+  width: 106px;
+  background-color: white;
+  border-radius: 25px;
+  line-height: 45px;
+  height: 70px;
+  margin: 3px;
+  border: 2px solid rgb(110, 67, 165);
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease; 
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(117, 88, 155);
+  color: white;
+  transform: scale(1.1); 
+}
+
+.container{
+  display: inline-block;
+  border: 2px solid rgb(98, 47, 165);
+  border-radius: 50px;
+  padding: 35px;
+  background-color: rgb(129, 152, 230);
+}
+
+.hi button{
+  height: 147px;
+  vertical-align: middle;
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    padding: 15px;
+  }
+
+  input {
+    font-size: 25px;
+    height: 50px;
+    margin: 10px;
+  }
+
+  button {
+    font-size: 20px;
+    width: 70px;
+    height: 50px;
+    margin: 2px;
+  }
+    
+  .hi button {
+    height: 120px;
+  }
+}
+  
